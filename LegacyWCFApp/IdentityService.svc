@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="LegacyWCFApp.IdentityService" CodeBehind="IdentityService.svc.cs" %>

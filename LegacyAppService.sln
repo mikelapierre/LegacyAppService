@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29626.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWCFApp", "LegacyWCFApp\LegacyWCFApp.csproj", "{7C30C406-2B6B-4C09-B34A-07E4E128DCD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyAPIApp", "LegacyAPIApp\LegacyAPIApp.csproj", "{8F37E6D8-1E14-4C37-975F-B6EEBC5742DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD118222-1E55-487B-AA21-8A996CFAFCB4}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Deploy.ps1 = Scripts\Deploy.ps1
+		Scripts\PublishProfile.xml = Scripts\PublishProfile.xml
+		Readme.md = Readme.md
+		Scripts\Setup.ps1 = Scripts\Setup.ps1
+		Scripts\Setup.psm1 = Scripts\Setup.psm1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyASMXApp", "LegacyASMXApp\LegacyASMXApp.csproj", "{000FE21D-12A7-4B42-8EF1-7F5DDA2722D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWebApp", "LegacyWebApp\LegacyWebApp.csproj", "{6BC8F39E-9148-4FEB-AFD1-10DEEBB4FC2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C30C406-2B6B-4C09-B34A-07E4E128DCD4} = {7C30C406-2B6B-4C09-B34A-07E4E128DCD4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyAuthSimulator", "EasyAuthSimulator\EasyAuthSimulator.csproj", "{C509EB2D-CF31-4D5C-8659-598BD681D2DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C30C406-2B6B-4C09-B34A-07E4E128DCD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C30C406-2B6B-4C09-B34A-07E4E128DCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C30C406-2B6B-4C09-B34A-07E4E128DCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C30C406-2B6B-4C09-B34A-07E4E128DCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F37E6D8-1E14-4C37-975F-B6EEBC5742DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F37E6D8-1E14-4C37-975F-B6EEBC5742DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F37E6D8-1E14-4C37-975F-B6EEBC5742DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F37E6D8-1E14-4C37-975F-B6EEBC5742DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000FE21D-12A7-4B42-8EF1-7F5DDA2722D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000FE21D-12A7-4B42-8EF1-7F5DDA2722D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000FE21D-12A7-4B42-8EF1-7F5DDA2722D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000FE21D-12A7-4B42-8EF1-7F5DDA2722D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC8F39E-9148-4FEB-AFD1-10DEEBB4FC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC8F39E-9148-4FEB-AFD1-10DEEBB4FC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC8F39E-9148-4FEB-AFD1-10DEEBB4FC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC8F39E-9148-4FEB-AFD1-10DEEBB4FC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C509EB2D-CF31-4D5C-8659-598BD681D2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C509EB2D-CF31-4D5C-8659-598BD681D2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C509EB2D-CF31-4D5C-8659-598BD681D2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C509EB2D-CF31-4D5C-8659-598BD681D2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D03C6752-B97C-4179-9D3B-A06F5744454F}
+	EndGlobalSection
+EndGlobal

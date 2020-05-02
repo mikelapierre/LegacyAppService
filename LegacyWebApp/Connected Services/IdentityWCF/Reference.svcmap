@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6a14ebad-1f99-4417-91c0-9f74b9ef8ae6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://localhost:44350/IdentityService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IdentityService.xsd" MetadataType="Schema" ID="2fe79eb6-13f4-48b2-a656-57e457f36403" SourceId="1" SourceUrl="https://localhost:44350/IdentityService.svc?xsd=xsd1" />
+    <MetadataFile FileName="IdentityService.disco" MetadataType="Disco" ID="dbf7af19-c3b6-46b4-9046-aa848ef55ef9" SourceId="1" SourceUrl="https://localhost:44350/IdentityService.svc?disco" />
+    <MetadataFile FileName="IdentityService.wsdl" MetadataType="Wsdl" ID="37f0fe6c-08f9-4bc1-ac6a-1e09db572d71" SourceId="1" SourceUrl="https://localhost:44350/IdentityService.svc?wsdl" />
+    <MetadataFile FileName="IdentityService1.xsd" MetadataType="Schema" ID="3cdb0962-7b2d-4f5b-8ec6-93457aeec30e" SourceId="1" SourceUrl="https://localhost:44350/IdentityService.svc?xsd=xsd0" />
+    <MetadataFile FileName="IdentityService2.xsd" MetadataType="Schema" ID="84a838f1-30c2-46e5-9d97-fef2d9f21850" SourceId="1" SourceUrl="https://localhost:44350/IdentityService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
