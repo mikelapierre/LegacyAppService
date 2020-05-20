@@ -3,7 +3,7 @@
 ## Introduction
 The intent of this repo is to provide legacy ASP.NET application samples with the different technology stacks 
 (ASMX, WCF and Web API) to showcase how they can be moved to Azure App Service leveraging App Service Authentication 
-(Easy Auth) with limited code changes. View the accompanying blog post for more details.
+(Easy Auth) with limited code changes. View the [accompanying blog post](https://devblogs.microsoft.com/premier-developer/moving-legacy-asp-net-apps-with-windows-authentication-to-azure-app-service-part-2/) for more details.
 
 *Note: most unnecessary things were intentionally removed from the sample applications to focus on the authentication.*
 
